@@ -1,0 +1,283 @@
+/*
+* @Author: admin
+* @Date:   2017-11-28 13:57:35
+* @Last Modified by:   admin
+* @Last Modified time: 2017-11-30 11:34:19
+*/
+/* 把一个css文件引入到另一个css中 */
+@import url(base.css);
+.header{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.header-box{
+	width: 1226px;
+	height: 100%;
+	/* background: red; */
+	margin: 0 auto;
+}
+.header-left{
+	width: 677px;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+}
+.header-right{
+	width: 350px;
+	height: 100%;
+	/* background: yellowgreen; */
+	float: right;
+}
+.text{
+	font-size: 12px;
+	color: #b0b0b0;
+	padding-left: 8px;
+	padding-right: 9px;
+	border-right: 1px solid #424242;
+	line-height: 40px;
+}
+.text:hover{
+	color: #fff;
+}
+.text1{
+	padding-left: 0;
+}
+.text2{
+	padding-right: 0;
+	border-right: none;
+}
+.danpin{
+	width: 1226px;
+	height: 398px;
+	/* background: red; */
+	margin: 0 auto;
+}
+.danpin-top{
+	width: 100%;
+	height: 58px;
+	/* background: pink; */
+}
+.danpin-bot{
+	width: 100%;
+	height: 340px;
+	/* background: yellowgreen; */
+}
+.danpin-list{
+	width: 234px;
+	height: 339px;
+	background: #fafafa;
+	float: left;
+	margin-right: 14px;
+}
+.danpin-bot .danpin-list:last-child{
+	margin-right: 0;
+	border-top: 1px solid #00c0a5;
+}
+.danpin-bot .danpin-list:first-child{
+	border-top: 1px solid #ffac13;
+}
+.danpin-bot .danpin-list:nth-child(2){
+	border-top: 1px solid #83c44e;
+
+}
+.danpin-bot .danpin-list:nth-child(3){
+	border-top: 1px solid #83c44e;
+	
+}
+.danpin-bot .danpin-list:nth-child(4){
+	border-top: 1px solid #83c44e;	
+}
+.danpin-img{
+	width: 160px;
+	height: 160px;
+	/* background: red; */
+	display: block;
+	margin: 0 auto;
+	margin-top: 47px;
+}
+.danpin-img img{
+	width: 160px;
+	height: 160px;
+}
+.danpin-text1{
+	font-size: 12px;
+	color: #212121;
+	margin-top: 16px;
+	display: block;
+	text-align: center;
+}
+.danpin-text2{
+	font-size: 12px;
+	color: #b0b0b0;
+	text-align: center;
+	margin-top: 5px;
+}
+.danpin-text3{
+  font-size: 12px;
+  color: #ff6709;
+  text-align: center;
+  margin-top: 13px;
+}
+.shop{
+	width: 120px;
+	height: 40px;
+	display: block;
+	background: #424242;
+	float: right;
+}
+.shopCar{
+	width: 20px;
+	height: 14px;
+	/* background: red; */
+	float: left;
+	margin-top: 14px;
+	margin-left: 16px;
+	background: url('../img/che.png') no-repeat center center;
+}
+.shopText{
+	float: left;
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 40px;
+}
+.shop:hover{
+	background: #fff;
+}
+.shop:hover .shopText{
+	color: #ff6700;
+}
+.shop:hover .shopCar{
+   background: url('../img/che1.png') no-repeat center center;
+}
+/* banner开始 */
+.banner{
+	width: 1226px;
+	height: 460px;
+	background: red;
+	margin: 0 auto;	
+	position: relative;
+}
+.img_box{
+	width: 100%;
+	height: 100%;
+	background: pink;
+}
+.img_box li{
+	width: 100%;
+	height: 100%;
+	background: yellowgreen;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.img_box li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.img_box li img{
+	width: 100%;
+	height: 100%;
+}
+.aside{
+	width: 234px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.aside li{
+	width: 100%;
+	height: 42px;
+}
+.aside li:hover{
+	background: #ff6700;
+}
+.aside li:first-child{
+	margin-top: 20px;
+}
+.aside-left{
+	float: left;
+	font-size: 12px;
+	color: #fff7f1;
+	line-height: 42px;
+	margin-left: 29px;
+}
+.aside-right{
+	float: right;
+	font-size: 12px;
+	color: #fff7f1;
+	line-height: 42px;
+	margin-right: 24px;
+}
+.btn_box{
+	width: 90px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	bottom: 25px;
+	right: 35px;
+}
+.btn_box li{
+	width: 6px;
+	height: 6px;
+	border: 2px solid #58585c;
+	background: #16161b;
+	float: left;
+	margin-right: 10px;
+	/* 圆角  */
+	border-radius: 50%;
+}
+.btn_box li:last-child{
+	margin-right: 0;
+}
+.banner-left{
+	width: 41px;
+	height: 69px;
+	background: rgba(0, 0, 0, 0);
+	position: absolute;
+	left: 234px;
+	/* 定位中的垂直居中 */
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	/* 定位中的水平居中 
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+	*/
+   font-size: 30px;
+   color: #fff;
+   text-align: center;
+   line-height: 69px;
+}
+.banner-right{
+	width: 41px;
+	height: 69px;
+	background: rgba(0, 0, 0, 0);
+	font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 69px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 0;
+}
+.banner-right:hover{
+	background: rgba(0, 0, 0, 0.6);
+}
+.banner-left:hover{
+	background: rgba(0, 0, 0, 0.6);
+}
+/* banner结束 */
+/* 带有透明度的表示方式：
+rgba(0, 0, 0, 0.6)；
+a表示透明度,0-1之间的小数,1表示不透明
+,0表示透明。 */
